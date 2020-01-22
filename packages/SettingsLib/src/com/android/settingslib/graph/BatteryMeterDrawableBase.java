@@ -426,7 +426,6 @@ public class BatteryMeterDrawableBase extends Drawable {
             case BATTERY_STYLE_PA_CIRCLE:
                 drawPACircle(c);
                 break;
-            case BATTERY_STYLE_PORTRAIT:
             default:
                 drawRectangle(c);
                 break;
